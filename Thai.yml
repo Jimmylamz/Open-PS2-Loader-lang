@@ -1,0 +1,393 @@
+comments: |-
+  แปลภาษาไทย โดย Jimmylamz Oz
+  สำหรับ Open PS2 Loader v1.0.0 + betas - Official OPL Beta อย่างเป็นทางการ 
+translations:
+  LOCALE: Thai
+  SAVE_CHANGES: บันทึกการเปลี่ยนแปลง
+  BACK: กลับ
+  NETCONFIG: การกำหนดค่าเครือข่าย
+  SHOW_ADVANCED_OPTS: ตัวเลือกขั้นสูง
+  NO_ITEMS: <ไม่มีค่า>
+  SETTINGS_SAVED: บันทึกการตั้งค่าไปที่ %s แล้ว
+  ERROR_SAVING_SETTINGS: เกิดข้อผิดพลาดในการเขียนการตั้งค่า!
+  EXIT: ทางออก
+  SETTINGS: การตั้งค่า
+  MENU: เมนู
+  BDM_GAMES: เกม BDM
+  HDD_GAMES: เกม HDD
+  NET_GAMES: เกม ETH
+  APPS: แอปพลิเคชั่น
+  THEME: ธีม
+  LANGUAGE: ภาษา
+  CONFIRMATION_POFF: ระบบปิด
+  CONFIRMATION_EXIT: ออกจากเบราว์เซอร์หรือไม่
+  CONFIRMATION_CANCEL_UPDATE: ยกเลิกการอัปเดตหรือไม่
+  HDD_NOT_CONNECTED_ERROR: '%d: ไม่สามารถตรวจพบ HDD'
+  HDD_NOT_FORMATTED_ERROR: '%d: ไม่ได้ฟอร์แมต HDD'
+  NETWORK_STARTUP_ERROR: '%d: ข้อผิดพลาดในการเริ่มต้นเครือข่าย'
+  NETWORK_STARTUP_ERROR_NETIF: '%d: ตรวจไม่พบอะแดปเตอร์เครือข่าย'
+  NETWORK_STARTUP_ERROR_CONN: '%d: ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ SMB'
+  NETWORK_STARTUP_ERROR_LOGON: '%d: ไม่สามารถลงชื่อเข้าใช้เซิร์ฟเวอร์ SMB'
+  NETWORK_STARTUP_ERROR_SHARE: '%d: ไม่สามารถเปิดการแชร์ SMB ได้'
+  NETWORK_SHARE_LIST_ERROR: '%d: ไม่สามารถแสดงรายการแชร์ SMB'
+  NETWORK_GAMES_LIST_ERROR: '%d: ไม่สามารถแสดงรายการเกม'
+  NETWORK_ERROR_DHCP_FAIL: '%d: ไม่มีเซิร์ฟเวอร์ DHCP'
+  NETWORK_ERROR_LINK_FAIL: '%d: ไม่สามารถเชื่อมต่อกับเครือข่าย'
+  'ON': เปิด
+  'OFF': ปิด
+  OK: โอเค
+  SELECT: เลือก
+  CANCEL: ยกเลิก
+  CIRCLE: O
+  CROSS: X
+  GAMES_LIST: รายชื่อเกม
+  COMPAT_SETTINGS: การตั้งค่าเกม
+  REMOVE_ALL_SETTINGS: ลบการตั้งค่า
+  SCROLLING: ความเร็วในการเลื่อน
+  SLOW: ช้า
+  MEDIUM: ปกติ
+  FAST: เร็ว
+  DEFDEVICE: เมนูหลัก
+  LOAD_FROM_DISC: อ่านดิสก์
+  PLEASE_WAIT: รอสักครู่
+  ERROR_LOADING_ID: เกิดข้อผิดพลาดในการโหลด ID เกม
+  AUTOSORT: การเรียงลำดับอัตโนมัติ
+  ERR_LOADING_LANGFILE: เกิดข้อผิดพลาดในการโหลดไฟล์ภาษา
+  DEBUG:
+  - ไม่ได้แปล
+  - original: Debug Colors
+  NO_CONTROLLER: ไม่มีตัวควบคุม ซึ่งรอคอย…
+  COVERART:
+  - ไม่ได้แปล
+  - original: Cover Art
+  WIDE_SCREEN: จอกว้าง
+  POWEROFF: ปิดเครื่อง
+  LOADING_SETTINGS: โหลดการตั้งค่า
+  SAVING_SETTINGS: บันทึกการตั้งค่า
+  START_DEVICE: เริ่มอุปกรณ์
+  REFRESH: รีเฟรช
+  BDMODE:
+  - untranslated
+  - original: BDM Start Mode
+  HDDMODE: โหมดเริ่มต้นอุปกรณ์ HDD
+  ETHMODE: โหมดเริ่มต้นอุปกรณ์ ETH
+  APPMODE: โหมดเริ่มต้นแอปพลิเคชัน
+  AUTO: อัตโนมัติ
+  MANUAL: คู่มือการใช้งาน
+  STARTNBD: เริ่มเซิร์ฟเวอร์ NBD
+  STARTINGNBD: กำลังเริ่มต้นเซิร์ฟเวอร์ NBD...
+  RUNNINGNBD: เซิร์ฟเวอร์ NBD กำลังทำงาน...
+  STARTFAILNBD: ไม่สามารถเริ่มเซิร์ฟเวอร์ NBD
+  UNLOADNBD: กำลังอัปโหลดไปยังเซิร์ฟเวอร์ NBD...
+  EXITTO: เส้นทาง IGR
+  BGCOLOR: สีพื้นหลัง
+  TXTCOLOR: สีข้อความ
+  CAT_SMB_SERVER: '- เซิร์ฟเวอร์ SMB -'
+  IP_ADDRESS_TYPE: ประเภทที่อยู่ IP
+  IP_ADDRESS_TYPE_STATIC:
+  - untranslated
+  - original: Static
+  IP_ADDRESS_TYPE_DHCP:
+  - untranslated
+  - original: DHCP
+  IP_ADDRESS: ที่อยู่ IP
+  ADDRESS: ที่อยู่
+  MASK: ซัพเน็ต
+  GATEWAY: เกตเวย์
+  DNS_SERVER: เซิร์ฟเวอร์ DNS
+  PORT: พอร์ต
+  SHARE: แบ่งปัน
+  USER: ผู้ใช้
+  PASSWORD: รหัสผ่าน
+  NOT_SET: <ไม่ได้ตั้งค่า>
+  ADDRESS_TYPE: ประเภทที่อยู่
+  ADDR_TYPE_IP:
+  - untranslated
+  - original: IP
+  ADDR_TYPE_NETBIOS:
+  - untranslated
+  - original: NetBIOS
+  ACCEPT: อนุญาต
+  DELETE_WARNING: รายการจะถูกลบอย่างถาวร ดำเนินการต่อหรือไม่
+  RENAME: เปลี่ยนชื่อ
+  DELETE: ลบ
+  RUN: วิ่ง
+  GFX_SETTINGS: การตั้งค่าการแสดงผล
+  ENABLE_WRITE:
+  - untranslated
+  - original: Write Operations
+  LASTPLAYED: จำเกมล่าสุดที่เล่น
+  SELECTBUTTON: เลือกปุ่ม
+  ERR_FRAGMENTED: เกิดข้อผิดพลาด เกมเสียหาย
+  ERR_FILE_INVALID: ข้อผิดพลาด ไม่สามารถดำเนินการรายการได้
+  TEST: เปลี่ยนการทดสอบ
+  HINT_GUEST: ล้างการอนุญาตจากแขก
+  HINT_MODE1: อ่านอย่างแม่นยำ
+  HINT_MODE2: โหมดการซิงโครไนซ์
+  HINT_MODE3: ปิดใช้งานการเรียกของระบบ
+  HINT_MODE4: ข้ามวิดีโอ
+  HINT_MODE5: การจำลอง DV-DL
+  HINT_MODE6: IGR ถูกปิดใช้งาน
+  HINT_VMC_SIZE: VMC จะถูกฟอร์แมตใหม่เมื่อมีการเปลี่ยนแปลงขนาด
+  CREATE: สร้าง
+  START: เริ่ม
+  MODIFY: แก้ไข
+  ABORT: ละทิ้ง
+  RESET: รีเซ็ต
+  USE_GENERIC: การใช้งานทั่วไป
+  VMC_SCREEN: กำหนดค่า VMC
+  VMC_NAME: ชื่อ
+  SIZE: ขนาด
+  VMC_STATUS: สถานะ
+  VMC_PROGRESS: ความคืบหน้า
+  VMC_FILE_EXISTS: มีไฟล์ VMC อยู่
+  VMC_FILE_ERROR: ไฟล์ VMC ไม่ถูกต้อง ขนาดต่างกัน
+  VMC_FILE_NEW: ต้องสร้างไฟล์ VMC
+  ERR_VMC_CONTINUE: ข้อผิดพลาด VMC %s ดำเนินการต่อจากการ์ดหน่วยความจำ (ช่อง %d) หรือไม่
+  AUTORFRESH: รีเฟรชอัตโนมัติ
+  ABOUT: เปิดข้อมูลตัวโหลด PS2
+  DEVS: ผู้พัฒนา
+  QANDA: การประกันคุณภาพ
+  BDM_PREFIX: เส้นทางคำนำหน้า BDM
+  HINT_EXITPATH: การบูต ELF แบบกำหนดเองหลังจาก IGR
+  HINT_SPINDOWN: ป้อนนาที ตั้งค่าเป็น 0 เพื่อไม่หยุดการหมุน
+  HDD_SPINDOWN: หยุดการหมุน HDD อัตโนมัติ
+  VMODE: โหมดวิดีโอ
+  UICOLOR: สีของกล่องโต้ตอบ
+  SELCOLOR: สีที่เลือก
+  RESETCOLOR:
+  - untranslated
+  - original: Reset Colors
+  INFO: ข้อมูล
+  ALTSTARTUP: เอลฟ์ที่กำหนดเอง
+  COLOR_SELECTION: เลือกสี
+  RECONNECT: เชื่อมต่อใหม่
+  HINT_SHARENAME: ล้างสำหรับการแชร์รายการ
+  ETH_PREFIX: เส้นทางคำนำหน้า ETH
+  BACKSPACE: แบ็คสเปซ
+  SPACE: ช่องว่าง
+  ENTER: ใส่
+  MODE: โหมด
+  VMC_SLOT1: สล็อต VMC 1
+  VMC_SLOT2: สล็อต VMC 2
+  GAME_ID: รหัสเกม
+  DMA_MODE: โหมด DMA
+  VSYNC: V-ซิงค์
+  MODE1: โหมด 1
+  MODE2: โหมด 2
+  MODE3: โหมด 3
+  MODE4: โหมด 4
+  MODE5: โหมด 5
+  MODE6: โหมด 6
+  GSCONFIG: การกำหนดค่า GSM
+  ETH_OPMODE: โหมดลิงก์อีเทอร์เน็ต
+  ETH_100MFDX: 100Mbit ฟูลดูเพล็กซ์
+  ETH_100MHDX: ฮาล์ฟดูเพล็กซ์ 100 เมกะบิต
+  ETH_10MFDX: 10Mbit ฟูลดูเพล็กซ์
+  ETH_10MHDX: 10Mbit ฮาล์ฟดูเพล็กซ์
+  GSM_SETTINGS: การตั้งค่า GSM
+  ENABLEGSM:
+  - untranslated
+  - original: GSM Selector
+  HINT_ENABLEGSM: เปิดหรือปิด GSM
+  HINT_GSMVMODE: บังคับโหมดการแสดงผลแบบกำหนดเอง
+  XOFFSET:
+  - untranslated
+  - original: H-POS
+  HINT_XOFFSET: การปรับแนวนอน
+  YOFFSET:
+  - untranslated
+  - original: V-POS
+  HINT_YOFFSET: การปรับแนวตั้ง
+  OVERSCAN: โอเวอร์สแกน
+  HINT_OVERSCAN: ปรับโอเวอร์สแกน
+  GSMSKIPVIDEOS: ข้าม FMV
+  HINT_GSMSKIPVIDEOS: ข้ามวิดีโอภาพเคลื่อนไหวแบบเต็ม
+  CHEAT_SETTINGS: การตั้งค่าการโกง
+  ENABLECHEAT:
+  - untranslated
+  - original: PS2RD Cheat Engine
+  HINT_ENABLECHEAT: ใช้ PS2RD Cheat Engine Patch
+  CHEATMODE: PS2RD Cheat Engine Mod
+  HINT_CHEATMODE: เลือกหรือเลือกกลโกงเกมโดยอัตโนมัติ
+  CHEATMODEAUTO: เลือกกลโกงโดยอัตโนมัติ
+  CHEATMODESELECT: เลือกกลโกงเกม
+  ERR_CHEATS_LOAD_FAILED: 'ข้อผิดพลาด: ไม่สามารถโหลดไฟล์โกง'
+  NO_CHEATS_FOUND: ไม่พบกลโกง
+  DL_DEFAULTS: ค่าเริ่มต้นของการดาวน์โหลด
+  NET_UPDATE: การอัปเดตเครือข่าย
+  NET_UPDATE_ALL: เขียนทับระเบียนที่มีอยู่
+  NET_UPDATE_FAILED: การอัปเดตล้มเหลว
+  NET_UPDATE_CONN_FAILED: ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์อัปเดต
+  NET_UPDATE_DONE: การอัปเดตเสร็จสมบูรณ์
+  NET_UPDATE_CANCELLED: ยกเลิกการอัปเดต
+  CONFIRMATION_SETTINGS_UPDATE: ดาวน์โหลดการตั้งค่าจากเครือข่ายหรือไม่
+  CUSTOMIZED_SETTINGS: การตั้งค่าแบบกำหนดเอง
+  DOWNLOADED_DEFAULTS: ดาวน์โหลดค่าเริ่มต้น
+  AUTO_START_IN_N_SECS: '%i เริ่มอัตโนมัติ... '
+  AUTOSTARTLAST: เริ่มอัตโนมัติ
+  HINT_AUTOSTARTLAST: ป้อนวินาที ตั้งค่าเป็น 0 เพื่อปิดใช้งาน autostart
+  PS2LOGO: โลโก้ PS2
+  HINT_PS2LOGO: แสดงเฉพาะโลโก้ดิสก์ที่ถูกต้องซึ่งตรงกับภูมิภาคของคอนโซล
+  PADEMUCONFIG: การกำหนดค่า PADEMU
+  PADEMU_SETTINGS: การตั้งค่าตัวจำลองแผ่น
+  PADEMU_ENABLE:
+  - untranslated
+  - original: Pad Emulator
+  HINT_PADEMU_ENABLE: เปิด/ปิดโปรแกรมจำลองเกมแพดที่เลือก
+  PADEMU_MODE: โหมดจำลองแผ่น
+  HINT_PADEMU_MODE: เลือกโหมดจำลองแผ่น
+  DS34USB_MODE: DualShock 3/4 USB
+  DS34BT_MODE: DualShock 3/4 BT
+  PADPORT: 'ตั้งค่าพอร์ต:'
+  HINT_PAD_PORT: เปิดใช้งานพอร์ตจำลองแผ่นสำหรับการตั้งค่า
+  PADEMU_PORT:
+  - untranslated
+  - original: Emulation
+  HINT_PADEMU_PORT: เปิด/ปิดโปรแกรมจำลองแผ่นพอร์ตที่เลือก
+  PADEMU_VIB:
+  - untranslated
+  - original: Vibration
+  HINT_PADEMU_VIB: สลับการเปิด/ปิดตัวจำลองแผ่นสั่นสะเทือนพอร์ตที่เลือก
+  USBDG_MAC: 'ที่อยู่ MAC ของอะแดปเตอร์บลูทูธ USB:'
+  PAD_MAC: 'การจับคู่กับที่อยู่ mac ของตัวควบคุม DS:'
+  PAIR: จับคู่
+  PAIR_PAD: จับคู่คอนโทรลเลอร์ DS
+  HINT_PAIRPAD: คอนโทรลเลอร์ DS จับคู่กับที่อยู่ MAC ของอะแดปเตอร์บลูทูธ
+  NOT_CONNECTED: ไม่ได้เชื่อมต่อ
+  BINFO: ข้อมูลอะแดปเตอร์ Bluetooth
+  HINT_BTINFO: แสดงข้อมูลเพิ่มเติมและคุณสมบัติที่รองรับ
+  HCIVER: 'เวอร์ชัน HCI:'
+  LMPVER: 'เวอร์ชัน LMP:'
+  MANUFACTURER: 'รหัสผู้ผลิต:'
+  SUPFEATURES: 'คุณสมบัติที่รองรับ:'
+  'YES': ใช่
+  'NO': ไม่
+  BT_SUPPORTED: อะแดปเตอร์ Bluetooth ต้องเข้ากันได้กับคอนโทรลเลอร์ DS3/DS4 อย่างสมบูรณ์
+  BT_NOTSUPPORTED: อะแดปเตอร์ Bluetooth อาจทำงานไม่ถูกต้องกับคอนโทรลเลอร์ DS3/DS4
+  MTAP_ENABLE:
+  - untranslated
+  - original: Multitap Emulation
+  HINT_MTAP_ENABLE: เปิด/ปิดการจำลองการแตะหลายปุ่มสำหรับเกมที่เลือก
+  MTAP_PORT: โปรแกรมจำลอง multitap บนพอร์ต
+  HINT_MTAP_PORT: เลือกพอร์ตสำหรับการจำลองมัลติแทป
+  PADEMU_WORKAROUND:
+  - untranslated
+  - original: Fake DS3 Workaround
+  HINT_PADEMU_WORKAROUND:
+  - untranslated
+  - original: Some fake DS3s need a workaround, this option will enable it.
+  GSM_FIELD_FIX: การจำลองการพลิกฟิลด์
+  HINT_GSM_FIELD_FIX: แก้ไขเกมที่ผิดพลาดในโหมดวิดีโอโปรเกรสซีฟ
+  PARENLOCKCONFIG: ตั้งค่าการล็อคโดยผู้ปกครอง
+  PARENLOCK_PASSWORD: รหัสผ่านล็อคสำหรับผู้ปกครอง
+  PARENLOCK_PASSWORD_HINT: เว้นว่างไว้เพื่อปิดใช้งานการล็อกโดยผู้ปกครอง
+  PARENLOCK_ENTER_PASSWORD_TITLE: ป้อนรหัสผ่านสำหรับผู้ปกครอง
+  PARENLOCK_PASSWORD_INCORRECT: รหัสผ่านล็อคสำหรับผู้ปกครองไม่ถูกต้อง
+  PARENLOCK_DISABLE_WARNING: การล็อคโดยผู้ปกครองถูกปิดใช้งาน
+  BUILD_DETAILS: 'ตัวเลือกการสร้าง:'
+  PARENLOCK_INVALID_PASSWORD: ข้อผิดพลาด - คุณไม่สามารถใช้รหัสผ่านนี้ได้
+  ERR_VMC_FRAGMENTED_CONTINUE: ไฟล์ VMC %s มีการแยกส่วน คุณต้องการใช้การ์ดหน่วยความจำในช่อง %d ต่อหรือไม่?
+  AUDIO_SETTINGS: การตั้งค่าเสียง
+  SFX:
+  - เสียงประกอบ
+  - original: Sound Effects
+  BOOT_SND:
+  - untranslated
+  - original: Boot Sound
+  SFX_VOLUME: ระดับเสียงของเอฟเฟกต์เสียง
+  BOOT_SND_VOLUME: ระดับเสียงบูต
+  CFM_VMODE_CHG: ยืนยันการเปลี่ยนโหมดวิดีโอหรือไม่
+  CACHE_HDD_GAME_LIST: รายชื่อเกมแคช (HDD)
+  ENABLE_NOTIFICATIONS:
+  - untranslated
+  - original: Notifications
+  CFG_NOTIFICATION:
+  - untranslated
+  - original: Config loaded from %s
+  THM_NOTIFICATION:
+  - untranslated
+  - original: Theme loaded from %s
+  LNG_NOTIFICATION:
+  - untranslated
+  - original: Language loaded from %s
+  PARTITION_NOTIFICATION:
+  - untranslated
+  - original: '%s partition mounted.'
+  OPTIONS:
+  - untranslated
+  - original: Options
+  GAME_SETTINGS_SAVED: บันทึกการตั้งค่าเกมของคุณแล้ว
+  GAME_SETTINGS_REMOVED: 'การตั้งค่า %s ถูกลบออก'
+  NET_UPDATE_HINT: เขียนทับการตั้งค่าความเข้ากันได้ของเกมที่มีอยู่เมื่อเปิดใช้งาน
+  SETTINGS_SOURCE: โหมดการตั้งค่า
+  GLOBAL_SETTINGS: ทั่วโลก
+  PERGAME_SETTINGS: ต่อเกม
+  ALL_SETTINGS: ทั้งหมด
+  GAME_SETTINGS_PROMPT: เลือกการตั้งค่าที่จะลบ
+  FORUM_DETAILS: 'ฟอรัมสนับสนุน:'
+  INFO_TITLE: ชื่อเรื่อง
+  INFO_GENRE: ประเภท
+  INFO_RELEASE: การแก้ไข
+  INFO_DEVELOPER: นักพัฒนา
+  INFO_DESCRIPTION: คำอธิบาย
+  BLOCKDEVICE_SETTINGS:
+  - untranslated
+  - original: Block Devices
+  CONTROLLER_SETTINGS:
+  - untranslated
+  - original: Controller Settings
+  HINT_BDM_START:
+  - untranslated
+  - original: Turn on/off Block Device Manager.
+  HINT_BLOCK_DEVICES:
+  - untranslated
+  - original: Turn on/off Block Devices (e.g. USB).
+  USB_GAMES:
+  - untranslated
+  - original: USB Games
+  ILINK_GAMES:
+  - untranslated
+  - original: iLink Games
+  MX4SIO_GAMES:
+  - untranslated
+  - original: MX4SIO Games
+  PADMACROCONFIG:
+  - untranslated
+  - original: Configure PADMACRO
+  PADMACRO_SETTINGS:
+  - untranslated
+  - original: Pad macro Settings
+  PADMACRO_ENABLE:
+  - untranslated
+  - original: Pad macros
+  PADMACRO_SLOWDOWN:
+  - untranslated
+  - original: 'Analog slow-down:'
+  HINT_PADMACRO_SLOWDOWN_AXIS:
+  - untranslated
+  - original: Reduce range of analog stick when button is pressed
+  LEFT_ANALOG:
+  - untranslated
+  - original: Left stick
+  RIGHT_ANALOG:
+  - untranslated
+  - original: Right stick
+  PADMACRO_INVERT_AXIS:
+  - untranslated
+  - original: 'Analog axis invert:'
+  HINT_PADMACRO_INVERT_AXIS:
+  - untranslated
+  - original: Invert analog stick axis
+  TURBO_SPEED:
+  - untranslated
+  - original: Turbo button speed
+  HINT_TURBO_SPEED:
+  - untranslated
+  - original: How fast to press the button when turbo is active
+  ACT_WHILE_PRESSED:
+  - untranslated
+  - original: While button pressed
+  ACT_TOGGLED:
+  - untranslated
+  - original: Toggled by button
