@@ -3,9 +3,9 @@ comments: |-
   สำหรับ Open PS2 Loader v1.0.0 + betas - Official OPL Beta อย่างเป็นทางการ 
 translations:
   LOCALE: Thai
-  SAVE_CHANGES: บันทึกการเปลี่ยนแปลง
+  SAVE_CHANGES: บันทึก
   BACK: กลับ
-  NETCONFIG: การกำหนดค่าเครือข่าย
+  NETCONFIG: กำหนดค่าเครือข่าย
   SHOW_ADVANCED_OPTS: ตัวเลือกขั้นสูง
   NO_ITEMS: <ไม่มีค่า>
   SETTINGS_SAVED: บันทึกการตั้งค่าไปที่ %s แล้ว
@@ -19,8 +19,8 @@ translations:
   APPS: แอปพลิเคชั่น
   THEME: ธีม
   LANGUAGE: ภาษา
-  CONFIRMATION_POFF: ระบบปิด
-  CONFIRMATION_EXIT: ออกจากเบราว์เซอร์หรือไม่
+  CONFIRMATION_POFF: ยืนยันก่อนปิด
+  CONFIRMATION_EXIT: ยืนยันก่อนออก
   CONFIRMATION_CANCEL_UPDATE: ยกเลิกการอัปเดตหรือไม่
   HDD_NOT_CONNECTED_ERROR: '%d: ไม่สามารถตรวจพบ HDD'
   HDD_NOT_FORMATTED_ERROR: '%d: ไม่ได้ฟอร์แมต HDD'
@@ -53,22 +53,16 @@ translations:
   ERROR_LOADING_ID: เกิดข้อผิดพลาดในการโหลด ID เกม
   AUTOSORT: การเรียงลำดับอัตโนมัติ
   ERR_LOADING_LANGFILE: เกิดข้อผิดพลาดในการโหลดไฟล์ภาษา
-  DEBUG:
-  - ไม่ได้แปล
-  - original: Debug Colors
+  DEBUG: แสดงจุดบกพร่องด้วยสี
   NO_CONTROLLER: ไม่มีตัวควบคุม ซึ่งรอคอย…
-  COVERART:
-  - ไม่ได้แปล
-  - original: Cover Art
+  COVERART: ปกเกม
   WIDE_SCREEN: จอกว้าง
   POWEROFF: ปิดเครื่อง
   LOADING_SETTINGS: โหลดการตั้งค่า
   SAVING_SETTINGS: บันทึกการตั้งค่า
   START_DEVICE: เริ่มอุปกรณ์
   REFRESH: รีเฟรช
-  BDMODE:
-  - untranslated
-  - original: BDM Start Mode
+  BDMODE: เริ่มโหมด BDM
   HDDMODE: โหมดเริ่มต้นอุปกรณ์ HDD
   ETHMODE: โหมดเริ่มต้นอุปกรณ์ ETH
   APPMODE: โหมดเริ่มต้นแอปพลิเคชัน
@@ -84,12 +78,8 @@ translations:
   TXTCOLOR: สีข้อความ
   CAT_SMB_SERVER: '- เซิร์ฟเวอร์ SMB -'
   IP_ADDRESS_TYPE: ประเภทที่อยู่ IP
-  IP_ADDRESS_TYPE_STATIC:
-  - untranslated
-  - original: Static
-  IP_ADDRESS_TYPE_DHCP:
-  - untranslated
-  - original: DHCP
+  IP_ADDRESS_TYPE_STATIC: ค่าคงที่
+  IP_ADDRESS_TYPE_DHCP: รับจาก DHCP
   IP_ADDRESS: ที่อยู่ IP
   ADDRESS: ที่อยู่
   MASK: ซัพเน็ต
@@ -101,21 +91,15 @@ translations:
   PASSWORD: รหัสผ่าน
   NOT_SET: <ไม่ได้ตั้งค่า>
   ADDRESS_TYPE: ประเภทที่อยู่
-  ADDR_TYPE_IP:
-  - untranslated
-  - original: IP
-  ADDR_TYPE_NETBIOS:
-  - untranslated
-  - original: NetBIOS
+  ADDR_TYPE_IP: ชนิดเลขไอพี
+  ADDR_TYPE_NETBIOS: เน็ตไบออส
   ACCEPT: อนุญาต
   DELETE_WARNING: รายการจะถูกลบอย่างถาวร ดำเนินการต่อหรือไม่
   RENAME: เปลี่ยนชื่อ
   DELETE: ลบ
-  RUN: วิ่ง
+  RUN: เริ่ม
   GFX_SETTINGS: การตั้งค่าการแสดงผล
-  ENABLE_WRITE:
-  - untranslated
-  - original: Write Operations
+  ENABLE_WRITE: อนุญาตให้บันทึก
   LASTPLAYED: จำเกมล่าสุดที่เล่น
   SELECTBUTTON: เลือกปุ่ม
   ERR_FRAGMENTED: เกิดข้อผิดพลาด เกมเสียหาย
@@ -155,9 +139,7 @@ translations:
   VMODE: โหมดวิดีโอ
   UICOLOR: สีของกล่องโต้ตอบ
   SELCOLOR: สีที่เลือก
-  RESETCOLOR:
-  - untranslated
-  - original: Reset Colors
+  RESETCOLOR: ลบค่าสี
   INFO: ข้อมูล
   ALTSTARTUP: เอลฟ์ที่กำหนดเอง
   COLOR_SELECTION: เลือกสี
@@ -186,9 +168,7 @@ translations:
   ETH_10MFDX: 10Mbit ฟูลดูเพล็กซ์
   ETH_10MHDX: 10Mbit ฮาล์ฟดูเพล็กซ์
   GSM_SETTINGS: การตั้งค่า GSM
-  ENABLEGSM:
-  - untranslated
-  - original: GSM Selector
+  ENABLEGSM: ตัวเลือกการแสดงผล GSM
   HINT_ENABLEGSM: เปิดหรือปิด GSM
   HINT_GSMVMODE: บังคับโหมดการแสดงผลแบบกำหนดเอง
   XOFFSET:
@@ -204,9 +184,7 @@ translations:
   GSMSKIPVIDEOS: ข้าม FMV
   HINT_GSMSKIPVIDEOS: ข้ามวิดีโอภาพเคลื่อนไหวแบบเต็ม
   CHEAT_SETTINGS: การตั้งค่าการโกง
-  ENABLECHEAT:
-  - untranslated
-  - original: PS2RD Cheat Engine
+  ENABLECHEAT: ใช้งานสูตรโกง
   HINT_ENABLECHEAT: ใช้ PS2RD Cheat Engine Patch
   CHEATMODE: PS2RD Cheat Engine Mod
   HINT_CHEATMODE: เลือกหรือเลือกกลโกงเกมโดยอัตโนมัติ
